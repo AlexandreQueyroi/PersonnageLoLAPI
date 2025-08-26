@@ -4,8 +4,9 @@ Projet effectué dans le but d'apprendre le C#
 ---
 ## Personnage League of Legends API
 
-API REST développée en **ASP.NET Core 9** suivant le modèle MVC.
+API REST développée en ASP.NET Core 9 suivant le modèle MVC.
 Elle permet de gérer des personnages de League of Legends via des opérations CRUD (Create, Read, Update, Delete).
+
 ---
 ## Fonctionnalités
 
@@ -20,7 +21,7 @@ Elle permet de gérer des personnages de League of Legends via des opérations C
 - [.NET 9](https://dotnet.microsoft.com/)
 - ASP.NET Core Web API
 - Entity Framework Core + SQLite
-  - Swagger
+- Swagger
 
 ---
 ## Structure du projet
@@ -51,13 +52,13 @@ PersonnageLoLAPI/
 
 ## Endpoints disponibles
 
-| Méthode | Route                   | Description                                |
-|---------|-------------------------|--------------------------------------------|
-| GET     | `/api/PersonnageLoL`    | Récupérer la liste de tout les personnages |
+| Méthode | Route                     | Description                                |
+|---------|---------------------------|--------------------------------------------|
+| GET     | `/api/PersonnageLoL`      | Récupérer la liste de tout les personnages |
 | GET     | `/api/PersonnageLoL/{id}` | Récupérer un personnage via son ID         |
-|    POST     | `/api/PersonnageLoL`    | Ajouter un personnage                      |
-|   PUT      | `/api/PersonnageLoL/{id` | Modifier un personnage existant            |
-|    DELETE     | `/api/PersonnageLoL/{id}`                        | Supprimer un personnage                    |
+| POST    | `/api/PersonnageLoL`      | Ajouter un personnage                      |
+| PUT     | `/api/PersonnageLoL/{id`  | Modifier un personnage existant            |
+| DELETE  | `/api/PersonnageLoL/{id}` | Supprimer un personnage                    |
 
 ---
 ## Exemples de requêtes JSON
